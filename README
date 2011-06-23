@@ -3,7 +3,7 @@ Welcome to the README of the cd_Store application! (In Progress)
 This application is an adaptation of the bookstore application from the awesome 
 Agile Web Development with Rails (4th ed.) book.
 
-To populate the products of the store, run migrate db:seed.
+To populate the products of the store, run rake db:seed.
 
 Future enhancements:
 

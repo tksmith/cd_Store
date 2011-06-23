@@ -51,3 +51,4 @@ Product.create(:title => 'Sigh No More',
   :image_url =>   '/images/sighnomore.jpg',
   :price => 12.99)
 #...
+User.create(:name => 'admin', :password => 'foo')

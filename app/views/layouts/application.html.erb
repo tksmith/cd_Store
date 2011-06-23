@@ -16,6 +16,7 @@
 	<%= image_tag("logo.png") %>
 	<%= @page_title || "Kyle's CD Emporium" %>
 	<% if session[:user_id] %>
+	<%= link_to session[:user_name], "#{users_path}/#{session[:user_id]}" %>
 	<% else %>
 	<%= link_to 'Login', login_path %>
 	<% end %>
